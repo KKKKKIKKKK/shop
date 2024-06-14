@@ -2,14 +2,17 @@ import logo from './logo.svg';
 import './App.css';
 import {Button,Navbar,Container,Nav, useAccordionButton} from 'react-bootstrap';
 import 배경이미지 from './img/bg.png'
-import { useState } from 'react';
+import { useState } from "react";
+import data from './data'; 
 
 
 function App() {
 
-  let [shoes] =useState()
+  let [shoes] = useState()
   return (
     <div className="App">
+    
+
       {/* <Button variant="primary">Primary</Button> */}
 
       <Navbar bg="light" data-bs-theme="light">
