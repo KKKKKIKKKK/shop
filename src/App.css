@@ -1,5 +1,15 @@
+.main-bg{
+  height: 400px;
+  /* width: auto; */
+  background-image: url('./img/bg.png');
+  background-size: cover;
+  background-position: center;
+
+}
+
 .App {
   text-align: center;
+  letter-spacing: -0.8px;
 }
 
 .App-logo {
